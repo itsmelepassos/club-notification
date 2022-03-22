@@ -1,0 +1,25 @@
+{
+  "name": "itsmelepassos/club-notification",
+  "description": "Notification Email",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Leandro Passos",
+      "email": "itsmelepassos@gmail.com",
+      "role": "Developer Chief"
+    }
+  ],
+  "minimum-stability": "dev",
+  "require": {
+    "phpmailer/phpmailer": "6.0.3"
+  },
+  "config": {
+    "vendor-dir": "lib_ext"
+  },
+  "autoload": {
+    "psr-4": {
+      "Notification\\": "_app"
+    }
+  }
+}
